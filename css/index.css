@@ -1,0 +1,67 @@
+/* Reset some basic elements for cross-browser compatibility */
+body, h3, h4, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for body to center the content */
+body {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+}
